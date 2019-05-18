@@ -7,3 +7,5 @@ applications:
   buildpack: https://github.com/cloudfoundry/java-buildpack
   env:
     SPRING_PROFILES_ACTIVE : cloud
+  services:
+    - cpf-service-registry  
